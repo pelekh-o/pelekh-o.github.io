@@ -10,9 +10,9 @@ menu:
         weight: -90
         params:
             icon: user
+draft: true
 ---
 
 Hey there! I'm Oleh, a tech enthusiast, operational intelligence engineer, and software engineer. 
 
-Welcome to my blog, where I share my passion for all things tech, clouds, and code!
-
+Тут я буду ділитися цікавими речами, які я відкрив для себе завдяки роботі та хобі.

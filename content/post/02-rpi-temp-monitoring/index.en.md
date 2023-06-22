@@ -1,7 +1,7 @@
 +++
 author = "Oleh P"
 title = "Raspberry Pi Temperature monitoring with New Relic"
-date = "2023-06-18"
+date = "2023-06-20"
 description = "In this article, I will show you how I monitor my Raspberry Pi 3b CPU temperature with New Relic."
 tags = [
     "newrelic",
@@ -90,7 +90,7 @@ Exit and save the changes. The script will run and send temperature data to New 
 
 Follow the tutorial if you need help with cron configuration: [Crontab – Quick Reference](https://www.adminschoice.com/crontab-quick-reference)
     
-8. Let’s check our data in New Relic. Go to ******************************Query your data → Query Builder******************************  and run following query:
+8. Let’s check our data in New Relic. Go to **Query your data → Query Builder**  and run following query:
     
 ```sql
 SELECT latest(`CPU temperature`) FROM Metric WHERE entity.name='raspberrypi' TIMESERIES
@@ -98,8 +98,8 @@ SELECT latest(`CPU temperature`) FROM Metric WHERE entity.name='raspberrypi' TIM
     
 ![](img/02-temp-chart.png)
     
-9. Now let’s configure the alert so we can have a notification when the board is overheated. Go to ******************Alerts & AI → Alert Conditions(Policies) →New alert Policy******************. Add policy name and select **Create policy without notifications**(We will configure our notifications in a few moments)
-10. On a policy page click **Create a condition**. Select ********NRQL******** and click **********Next.**********
+9. Now let’s configure the alert so we can have a notification when the board is overheated. Go to **Alerts & AI → Alert Conditions(Policies) →New alert Policy****. Add policy name and select **Create policy without notifications**(We will configure our notifications in a few moments)
+10. On a policy page click **Create a condition**. Select **NRQL** and click **Next.**
 11. Enter NRQL Query:
     
 ```sql
@@ -116,15 +116,15 @@ Alert will be triggered when CPU temperature will have a value above 65 for at l
     
 Save condition.
     
-12. Now got to ************************************************************************************Alerts&AI → Workflows → Add a workflow************************************************************************************.
-13. Add a unique name for the workflow and pick the policy created on a previous step from the ****************************Filter data**************************** section.
+12. Now got to **Alerts&AI → Workflows → Add a workflow**.
+13. Add a unique name for the workflow and pick the policy created on a previous step from the **Filter data** section.
 14. Add the email address to which you want to receive messages. 
     
     Workflow configuration page now looks like this:
     
 ![](img/05-workflow-config.png)
     
-15. Click **************************Test workflow.************************** If everything is set up correctly, a letter will be sent to the mail address
+15. Click **Test workflow.** If everything is set up correctly, a letter will be sent to the mail address
     
 ![](img/06-workflow-test.png)
 
