@@ -15,8 +15,6 @@ draft = false
 image = "rpi-temp-featered.jfif"
 +++
 
-In this article, I will show you how I monitor my Raspberry Pi 3b CPU temperature with New Relic.
-
 I don’t use any active or passive cooling system. The board is used mainly to run scripts at scheduled times through cron.
 
 1. Register a free account at https://newrelic.com/
