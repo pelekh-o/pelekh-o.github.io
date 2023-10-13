@@ -1,7 +1,7 @@
 +++
 author = "Oleh P"
 title = "Data Export From New Relic"
-date = "2023-00-13"
+date = "2023-10-13"
 description = "Discover the key to harnessing New Relic data through effective exporting methods"
 tags = [
     "newrelic"
@@ -10,7 +10,7 @@ categories = [
     "Monitoring"
 ]
 draft = false
-image = "img/cover.png"
+image = "img/cover.jpg"
 +++
 
 
