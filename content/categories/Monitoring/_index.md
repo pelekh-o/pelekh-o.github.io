@@ -1,6 +1,5 @@
 ---
 title: "Monitoring"
-# description: "This is an example category"
 slug: "monitoring"
 image: "monitoring.jpg"
 style:
