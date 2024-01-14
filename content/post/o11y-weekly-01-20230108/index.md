@@ -10,12 +10,15 @@ categories = [
     "O11y Weekly"
 ]
 draft = false
+image = "img/cover.png"
 +++
 
-- [**Observability in 2024: More OpenTelemetry, Less Confusion**](https://thenewstack.io/observability-in-2024-more-opentelemetry-less-confusion/)
+- [**Observability in 2024: More OpenTelemetry, Less Confusion**](https://thenewstack.io/observability-in-2024-more-opentelemetry-less-confusion/).
+
     The article highlights key trends in observability for 2024, addressing challenges of data overload due to siloed tools and diverse formats. It advocates for OpenTelemetry as a common data collection standard and emphasizes the growing role of AI and ML in managing observability data.
     
 - [**Rethinking Observability**](https://thenewstack.io/rethinking-observability/)
+
     This article rethinks observability, arguing current practices focused on system-centric metrics cause data overload and miss user experience. It proposes a user-centric approach based on critical user journeys and service-level objectives for more meaningful insights.
     
 - [**SolarWinds predicts key trends and themes that will define enterprise IT in 2024**](https://www.tahawultech.com/news/solarwinds-predicts-key-trends-and-themes-that-will-define-enterprise-it-in-2024/)
