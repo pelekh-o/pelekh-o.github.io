@@ -2,17 +2,17 @@ baseurl: https://example.com
 languageCode: en-us
 theme: hugo-theme-stack
 paginate: 5
-title: Oleh P.
+title: Oleh Pelekh
 
 languages:
     en:
         languageName: English
-        title: Oleh P.
+        title: Oleh Pelekh
         description: Exploring operational intelligence, software engineering, and cloud technologies
         weight: 1
     uk:
         languageName: Українська
-        title: Oleh P.
+        title: Oleh Pelekh
         description:  Exploring operational intelligence, software engineering, and cloud technologies
         weight: 2
 
