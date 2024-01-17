@@ -7,7 +7,7 @@ tags = [
     "o11y"
 ]
 categories = [
-    "O11y Weekly"
+    "o11y-weekly"
 ]
 draft = false
 image = "img/cover.jpg"
