@@ -10,11 +10,7 @@ languages:
         title: Oleh Pelekh
         description: Exploring operational intelligence, software engineering, and cloud technologies
         weight: 1
-    uk:
-        languageName: Українська
-        title: Oleh Pelekh
-        description:  Exploring operational intelligence, software engineering, and cloud technologies
-        weight: 2
+
 
 # Change it to your Disqus shortname before using
 # disqusShortname: hugo-theme-stack
