@@ -2,7 +2,7 @@
 author = "Oleh Pelekh"
 title = "O11y Weekly - 2024-06-03"
 date = "2024-06-03"
-description = "Observaility&Monitoring Digest is back! This week's digest: OpenTelemetry gets a performance boost, dashboards as communication tools, & keeping your Cloud SIEM sharp."
+description = "Observability&Monitoring Digest is back! This week's digest: OpenTelemetry gets a performance boost, dashboards as communication tools, & keeping your Cloud SIEM sharp."
 tags = [
     "o11y"
 ]
